@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- <script src="./js/script.js"></script> -->
+    
+        
+        <div class="container">
+            <header class="header">
+                <h1 id = "title"><b><i>Survey</i></b></h1>
+                <p id="description">Thank you for taking the time to help us improve</p>
+            </header>
+            <form action = "" id="survey-form">
+                <div class ="form-group">
+                   <label for="name">Name <span style="color: red;">*</span></label>
+                   <input type="text" id="Enter your Name" name="Enter your Name" placeholder="Enter your Name">
+                </div> <br>
+                <div class ="form-group">
+                    <label for="Age">Age <span style="color: red;">*</span></label>
+                    <input type="number78u/uuu" id="Enter your Age" name="Enter your Age" placeholder="Enter your Age ">
+                 </div> <br>
+                 <div class ="form-group">
+                    <label for="Phone Number">Phone Number <span style="color: red;">*</span></label>
+                    <input type="email" id="Enter your Phone Number" name="Enter your Phone Number" placeholder="Enter your Phone Number">
+                 </div> <br>
+                 <div class ="form-group">
+                    <label for="email">Email <span style="color: red;">*</span></label>
+                    <input type="text" id="Enter your email" name="Enter your email" placeholder="Enter your email">
+                 </div> <br>
+                 <div class ="form-group">
+                    <label for="Address">Address</label>
+                    <input type="text" id="Enter your Address" name="Enter your Address" placeholder="Enter your Address">
+                 </div> <br>
+                 <div class = "form-group">
+                    <label>Gender:<span style="color: red;">*</span></label>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male"> Male</label>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female"> Female</label>
+                    <input type="radio" id="others" name="gender" value="others" required>
+                    <label for="others"> Others</label>
+
+                 </div>
+                  <div class = "form-group">
+                    <p id = "quest">Which option best describe your current status?<span style="color: red;">*</span></p>
+                    <select name="status" id="dropdown" class = "formcontrol" required>
+                        <option value="" disabled selected> Select current status</option>
+                        <option vale ="Student">Student</option>
+                        <option vale ="Employed">Employed</option>
+                        <option vale ="Unemployed">Unemployed</option>
+                        <option vale ="Others">Others</option>
+                        </select>
+                    </div>
+                    </select>
+                    <div class = "form-group">
+                        <p id = "quest">How did you find about us?<span style="color: red;">*</span></p>
+                        <input type="radio" id="friends" name="quest" value="friends" required>
+                        <label for="friends"> Friends</label>
+                        <input type="radio" id="TV ad" name="quest" value="TV ad" required>
+                        <label for="TV ad"> TV Ad</label>
+                        <input type="radio" id="Social media" name="quest" value="Social media" required>
+                        <label for="Social media"> Social Media</label>
+                        <input type="radio" id="newspaper" name="quest" value="newspaper" required>
+                        <label for="newspaper"> Newspaper</label>
+                        <input type="radio" id="others" name="quest" value="Others" required>
+                        <label for="others"> Others</label>
+                    </div>
+                    <div class = "form-group">
+                        <p id = "quest">Which course you have opted?<span style="color: red;">*</span></p>
+                        <input type="radio" id="Full Stack development" name="quest" value="Full Stack development" required>
+                        <label for="Full Stack development"> Full Stack development</label>
+                        <input type="radio" id="Python testing" name="quest" value="Python testing" required>
+                        <label for="Python testing">Python testing</label>
+                        <input type="radio" id="Java testing" name="quest" value="Java testing" required>
+                        <label for="Java testing"> Java testing</label>
+                        <input type="radio" id="Data Science" name="quest" value="Data Science" required>
+                        <label for="Data Science">Data Science</label>
+                        <input type="radio" id="UI/UX design" name="quest" value="UI/UX design" required>
+                        <label for="UI/UX design"> UI/UX design</label>
+                        
+                    </div>
+                    <div class = "form-group">
+                        <p id = "quest">Give us your feedback.</p>
+                        <textarea name = "textarea" id="feedback" cols = "25" rows = "5" class = "textarea" placeholder = "Enter your feedback here.."></textarea>
+                    </div>
+                    <div class = "form-group">
+                    <button type="submit" id = "Submit" class = "SubmitBtn" > Submit</button>
+                    </div>
+            
+                    
+
+
+
+        
+                 </div>
+            </form>
+        </div>
+
+        
+
+
+
+
+    
+    
+
+</body>
+</html>
